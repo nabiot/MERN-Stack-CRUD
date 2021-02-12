@@ -71,7 +71,7 @@ memberRoutes.route('/delete').post(function(req, res) {
     });
 });
 
-mongoose.connect('mongodb+srv://dbNabiot:Dtgiribi@cluster0.n2g4u.mongodb.net/fitnesmembership?retryWrites=true&w=majority', { useNewUrlParser: true })
+mongoose.connect('mongodb+srv://db@cluster0.n2g4u.mongodb.net/fitnesmembership?retryWrites=true&w=majority', { useNewUrlParser: true })
 
 const connection = mongoose.connection;
 connection.once('open', function() {
