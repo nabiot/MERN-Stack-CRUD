@@ -1,0 +1,28 @@
+.wrapper {
+    background-color: teal;
+    padding: 0;
+    border-radius: 3px;
+  }
+  .form {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+  }
+  .form > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+  }
+  .form > input {
+    flex: 2;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: .5em;
+  }
+  h1 {
+    text-align: center;
+    background-color:lightskyblue;
+  }
+  button {
+    background-color: #fb9e00;
+  }

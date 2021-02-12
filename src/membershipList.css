@@ -1,0 +1,31 @@
+body {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table {
+    background-color: burlywood;
+    margin: 10px auto;
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  table,
+  td,
+  th {
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 12px;
+    border: solid 1px;
+    text-align: left;
+
+  }
+  .update {
+    background-color: #009688;
+  }
+  .delete {
+    background-color: #f44336;
+  }
+  
